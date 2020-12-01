@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/*navber design starts-here*/
+.navber h1{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 0px;
+}
+.nav-menu a{
+    margin: 0px 5px;
+}
+/*navber design ends-here*/
+/* profile design starts from here */
+
+.profile .top-weather-icon{
+    position: absolute;
+    right: 75px;
+    top: 25%;
+    transition:width height 2s , transform 2s;
+}
+.profile .top-weather-icon:hover{
+    width: 160px;
+    height: 160px;
+}
+.profile .bottom-weather-icon{
+    position: absolute;
+    left: 75px;
+    bottom: 35%;
+    transition:width height 2s , transform 2s;
+}
+.profile .bottom-weather-icon:hover{
+    width: 160px;
+    height: 160px;
+}
+.profile-desc p {
+    color: gray;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    width: 50%;}
+    .profile {
+        padding:50px 10px;
+        position: relative;
+        text-align: center;
+    }
+/* profile design ends from here */
+/* about me design starts here */
+.about-me-image-div{
+    margin-top: 0px;
+}
+.about-me-desc p{
+    text-align: left;
+}
+/* about me design ends here */
+/* professional experience starts here */
+/* professional experience starts here */
+.professional-experience .card{
+    background-color: #a39e9e;
+    border-radius: 5px;
+    padding: 50px;
+    transition: .3s;
+    height: 900px;
+}
+/* professional experience ends here */
+/* achievment Contact starts here */
+
+.achievement {
+    padding-right: 30px;
+}
+.contact-link{
+    position: relative;
+    padding-left: 30px;
+}
+.media-button{
+    position: absolute;
+    margin-top: 100px;
+    left: 20%;
+    top: 50%;
+    transform: translate((-50%,-50%));
+}
+
+/* achievment Contact ends here */
+/* footer starts here */
+.footer-menu{
+    margin-top: 12px;
+}
+.footer-menu a{
+    display: inline;
+    padding: 10px;
+}
+/* footer starts here */
+
